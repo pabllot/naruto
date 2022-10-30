@@ -13,5 +13,5 @@ const alternative = [
     {name: 'Goku', points: 602 },
     {name: 'Demon Slayer', points: 1007 },
     {name: 'Bleach', points: 1390 },
-    {name: 'Hunter X Hunter', points: 378 }
+    {name: 'Hunter X Hunter', points: 379 }
 ]
