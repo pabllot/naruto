@@ -3,7 +3,7 @@ import bg from '../../assets/bg.svg'
 
 export const Container = styled.div`
 width: 360px;
-height: 100vh;
+height: 747px;
 
 background:url(${bg});
 background-repeat: no-repeat;
