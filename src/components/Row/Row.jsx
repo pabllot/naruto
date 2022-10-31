@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container } from "./styles";
-import naruto from '../../assets/naruto.svg'
 import greenArrow from '../../assets/greenarrow.svg'
 
 
-const Row = ({name, points, id}) => {
+const Row = ({name, points, id, img}) => {
     return (
         <Container>
             <section className='position'>
@@ -12,7 +11,7 @@ const Row = ({name, points, id}) => {
                     <p>{id}</p>
                     <img src={greenArrow} alt='' />
                 </div>
-                <img src={naruto} alt=''/>
+                <img src={img} alt=''/>
             </section>
             <section className='info'>
                     <p className='name'>{name}</p>
