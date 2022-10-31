@@ -8,15 +8,15 @@ import naruto from '../assets/naruto.svg'
 import onepiece from '../assets/onepiece.svg'
 
 export const FirstGroup = [
-    {name: 'Naruto', points: 1470, id: 1, img: naruto },
-    {name: 'One Piece', points: 1370, id: 2, img: onepiece },
-    {name: 'Goku', points: 1402, id: 3, img: goku }
+    {name: 'Naruto', points: 2170, id: 1, img: naruto },
+    {name: 'One Piece', points: 1370, id: 3, img: onepiece },
+    {name: 'Dragon Ball', points: 1502, id: 2, img: goku }
 ];
 
  export const SecondGroup = [
-    {name: 'Demon Slayer', points: 1007, id: 4, img: demonslayer, arrow: greenArrow },
-    {name: 'Bleach', points: 990, id: 5, img: bleach, arrow: greenArrow},
-    {name: 'Hunter X Hunter', points: 958, id: 6, img: hunter, arrow: redarrow } 
+    {name: 'Demon Slayer', points: 1038, id: 4, img: demonslayer, arrow: greenArrow },
+    {name: 'Bleach', points: 920, id: 5, img: bleach, arrow: greenArrow},
+    {name: 'Hunter X Hunter', points: 848, id: 6, img: hunter, arrow: redarrow } 
 ];
 
 export const alternative = [

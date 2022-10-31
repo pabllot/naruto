@@ -15,7 +15,7 @@ const Podium = () => {
                         <p>{FirstGroup[2].name}</p>
                         <h2>{FirstGroup[2].points}</h2>
                     </div>
-                    <div className='num'>{FirstGroup[2].id}</div>
+                    <div className='num2'>{FirstGroup[2].id}</div>
                 </div>
             </section>
 
@@ -37,7 +37,7 @@ const Podium = () => {
                         <p>{FirstGroup[1].name}</p>
                         <h2>{FirstGroup[1].points}</h2>
                     </div>
-                    <div className='num'>{FirstGroup[1].id}</div>
+                    <div className='num3'>{FirstGroup[1].id}</div>
                 </div>
             </section>
         </Container>

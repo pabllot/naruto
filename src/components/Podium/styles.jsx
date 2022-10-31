@@ -100,6 +100,31 @@ align-items: center;
 justify-content: center;
 }
 
+.num2 {     font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 49px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.num3 {     font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 49px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .podiumwrapper {
     display: flex;
     flex-direction: column;
