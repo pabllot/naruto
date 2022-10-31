@@ -15,8 +15,8 @@ const Row = () => {
                 <img src={naruto} alt=''/>
             </section>
             <section className='info'>
-                    <p>Demon Slayer</p>
-                    <p>1498</p>
+                    <p className='name'>Demon Slayer</p>
+                    <p className='number'>1498</p>
             </section>
         </Container>
     );

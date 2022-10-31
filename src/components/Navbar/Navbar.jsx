@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <Container>
             <AiOutlineArrowLeft />
-            <p>Leadership</p>
+            Leaderboard
             <HiDotsVertical />
         </Container>
     );

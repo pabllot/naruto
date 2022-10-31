@@ -29,5 +29,19 @@ border-radius: 10px;
     height: 100%;
 }
 
+.name, .number {
+    font-style: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.number {
+    font-weight: 400;
+}
+.name {
+    font-weight: 500;
+}
 
 `;
