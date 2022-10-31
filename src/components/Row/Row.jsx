@@ -4,19 +4,19 @@ import naruto from '../../assets/naruto.svg'
 import greenArrow from '../../assets/greenarrow.svg'
 
 
-const Row = () => {
+const Row = ({name, points, id}) => {
     return (
         <Container>
             <section className='position'>
                 <div className='positionWrapper'>
-                    <p>4</p>
+                    <p>{id}</p>
                     <img src={greenArrow} alt='' />
                 </div>
                 <img src={naruto} alt=''/>
             </section>
             <section className='info'>
-                    <p className='name'>Demon Slayer</p>
-                    <p className='number'>1498</p>
+                    <p className='name'>{name}</p>
+                    <p className='number'>{points}</p>
             </section>
         </Container>
     );
