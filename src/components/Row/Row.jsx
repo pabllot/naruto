@@ -1,15 +1,14 @@
 import React from 'react';
 import { Container } from "./styles";
-import greenArrow from '../../assets/greenarrow.svg'
 
 
-const Row = ({name, points, id, img}) => {
+const Row = ({name, points, id, img, arrow}) => {
     return (
         <Container>
             <section className='position'>
                 <div className='positionWrapper'>
-                    <p>{id}</p>
-                    <img src={greenArrow} alt='' />
+                    <p className='num'>{id}</p>
+                    <img src={arrow} alt='' />
                 </div>
                 <img src={img} alt=''/>
             </section>

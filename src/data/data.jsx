@@ -1,6 +1,8 @@
 import demonslayer from '../assets/demonslayer.svg'
 import bleach from '../assets/bleach.svg'
 import hunter from '../assets/hunter.svg'
+import greenArrow from '../assets/greenarrow.svg'
+import redarrow from '../assets/redarrow.svg'
 
 export const FirstGroup = [
     {name: 'Naruto', points: 1470 },
@@ -9,9 +11,9 @@ export const FirstGroup = [
 ];
 
  export const SecondGroup = [
-    {name: 'Demon Slayer', points: 1007, id: 4, img: demonslayer },
-    {name: 'Bleach', points: 990, id: 5, img: bleach },
-    {name: 'Hunter X Hunter', points: 958, id: 6, img: hunter } 
+    {name: 'Demon Slayer', points: 1007, id: 4, img: demonslayer, arrow: greenArrow },
+    {name: 'Bleach', points: 990, id: 5, img: bleach, arrow: greenArrow},
+    {name: 'Hunter X Hunter', points: 958, id: 6, img: hunter, arrow: redarrow } 
 ];
 
 export const alternative = [

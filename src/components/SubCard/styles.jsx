@@ -24,7 +24,13 @@ overflow: hidden;
 
 color: #000000;
 }
-
+.rowsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8px;
+}
 
 
 `

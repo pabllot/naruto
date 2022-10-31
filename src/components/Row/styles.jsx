@@ -14,6 +14,7 @@ border-radius: 10px;
     display: flex;
     width: 30%;
     margin-left: 1rem;
+    gap: 12px;
 }
 
 .info {
@@ -21,25 +22,27 @@ border-radius: 10px;
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    margin-right: 1rem;
-}
+    }
 .positionWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100%;
+
 }
 
 .name, .number {
     font-style: normal;
-font-size: 16px;
-line-height: 19px;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #000000;
+    color: #000000;
 }
 
-.number {
+.num {
     font-weight: 400;
+    margin-bottom: -4px;
 }
 .name {
     font-weight: 500;
