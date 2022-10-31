@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Card from './components/Card/Card'
+import { Container } from './styles'
 
 const App = () => {
   return (
-    <>
-    <Navbar />
-    </>
+    <Container>
+    <Card />
+    </Container>
   )
 }
 
