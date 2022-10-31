@@ -29,7 +29,8 @@ color: #000000;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -8px;
+    margin-top: -10px;
+    gap: 5px;
 }
 
 
