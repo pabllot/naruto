@@ -39,9 +39,12 @@ border-radius: 10px;
 
     color: #000000;
 }
-
-.num {
+.number {
     font-weight: 400;
+    margin-right: 9px;
+
+}
+.num {
     margin-bottom: -4px;
 }
 .name {

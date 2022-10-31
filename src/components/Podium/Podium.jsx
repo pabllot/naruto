@@ -1,8 +1,6 @@
 import React from 'react';
 import {Container} from "./styles";
-import Goku from '../../assets/goku.svg'
-import onepiece from '../../assets/onepiece.svg'
-import naruto from '../../assets/naruto.svg'
+import { FirstGroup } from '../../data/data';
 
 
 
@@ -11,35 +9,35 @@ const Podium = () => {
     return (
         <Container>
             <section>
-                <img className='img3' src={Goku} />
+                <img className='img3' src={FirstGroup[2].img} />
                 <div className='secondPlace'>
                     <div className='podiumwrapper'>
-                        <p>Dragon Ball</p>
-                        <h2>1500 pts</h2>
+                        <p>{FirstGroup[2].name}</p>
+                        <h2>{FirstGroup[2].points}</h2>
                     </div>
-                    <div className='num'>2</div>
+                    <div className='num'>{FirstGroup[2].id}</div>
                 </div>
             </section>
 
             <section>
-                <img className='img2' src={naruto} />            
+                <img className='img2' src={FirstGroup[0].img} />            
                 <div className='firstPlace'>
                     <div className='podiumwrapper'>
-                        <p>Naruto</p>
-                        <h2>1800 pts</h2>
+                        <p>{FirstGroup[0].name}</p>
+                        <h2>{FirstGroup[0].points}</h2>
                     </div>
-                    <div className='num'>1</div>
+                    <div className='num'>{FirstGroup[0].id}</div>
                 </div>
             </section>
 
             <section>
-                <img className='img' src={onepiece} />
+                <img className='img' src={FirstGroup[1].img} />
                 <div className='thirdPlace'>
                     <div className='podiumwrapper'>
-                        <p>One Piece</p>
-                        <h2>1350 pts</h2>
+                        <p>{FirstGroup[1].name}</p>
+                        <h2>{FirstGroup[1].points}</h2>
                     </div>
-                    <div className='num'>3</div>
+                    <div className='num'>{FirstGroup[1].id}</div>
                 </div>
             </section>
         </Container>

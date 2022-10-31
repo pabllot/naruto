@@ -3,11 +3,14 @@ import bleach from '../assets/bleach.svg'
 import hunter from '../assets/hunter.svg'
 import greenArrow from '../assets/greenarrow.svg'
 import redarrow from '../assets/redarrow.svg'
+import goku from '../assets/goku.svg'
+import naruto from '../assets/naruto.svg'
+import onepiece from '../assets/onepiece.svg'
 
 export const FirstGroup = [
-    {name: 'Naruto', points: 1470 },
-    {name: 'One Piece', points: 1370 },
-    {name: 'Goku', points: 1202 }
+    {name: 'Naruto', points: 1470, id: 1, img: naruto },
+    {name: 'One Piece', points: 1370, id: 2, img: onepiece },
+    {name: 'Goku', points: 1402, id: 3, img: goku }
 ];
 
  export const SecondGroup = [
