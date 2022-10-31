@@ -1,10 +1,10 @@
 import React from 'react'
-import Podium from './components/Podium/Podium'
+import Row from './components/Row/Row'
 
 const App = () => {
   return (
     <>
-    <Podium />
+    <Row />
     </>
   )
 }
