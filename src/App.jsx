@@ -1,10 +1,10 @@
 import React from 'react'
-import Row from './components/Row/Row'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
     <>
-    <Row />
+    <Navbar />
     </>
   )
 }

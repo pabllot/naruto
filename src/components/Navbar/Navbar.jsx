@@ -4,12 +4,15 @@ import {Container} from "./styles";
 import { HiDotsVertical } from 'react-icons/hi'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 
-const Modelo = () => {
+const Navbar = () => {
 
     return (
         <Container>
+            <AiOutlineArrowLeft />
+            <p>Leadership</p>
+            <HiDotsVertical />
         </Container>
     );
   }
   
-  export default Modelo;
+  export default Navbar;
