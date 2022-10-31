@@ -10,6 +10,10 @@ align-items: flex-end;
 position: relative;
 
 .firstPlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 96px;
     height: 180px;
 
@@ -18,6 +22,9 @@ position: relative;
 }
 
 .secondPlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 96px;
     height: 146px;
 
@@ -26,6 +33,10 @@ position: relative;
 }
 
 .thirdPlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 96px;
     height: 112px;
 
@@ -44,5 +55,56 @@ position: relative;
 
 .img3 {
     margin-bottom: -10px;
+    margin-left: 3px;
 }
+
+p {
+    font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #FFFFFE;
+
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFE;
+
+    margin-top: -11px;
+
+}
+
+.num {
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.podiumwrapper {
+    margin: 0 auto;
+}
+
+
+
+
 `

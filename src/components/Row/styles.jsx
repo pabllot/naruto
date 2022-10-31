@@ -9,6 +9,7 @@ display: flex;
 background: #FFFFFE;
 border-radius: 10px;
 
+
 .position {
     display: flex;
     width: 30%;
