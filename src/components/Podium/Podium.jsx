@@ -14,7 +14,7 @@ const Podium = () => {
                 <img className='img3' src={Goku} />
                 <div className='secondPlace'>
                     <div className='podiumwrapper'>
-                        <p>Goky</p>
+                        <p>Dragon Ball</p>
                         <h2>1500 pts</h2>
                     </div>
                     <div className='num'>2</div>
@@ -39,7 +39,7 @@ const Podium = () => {
                         <p>One Piece</p>
                         <h2>1350 pts</h2>
                     </div>
-                    <div className='num'>1</div>
+                    <div className='num'>3</div>
                 </div>
             </section>
         </Container>
